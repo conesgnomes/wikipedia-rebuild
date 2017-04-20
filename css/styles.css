@@ -11,9 +11,6 @@
 .nav-pills li a {
   margin-left: -20px;
 }
-.blah {
-  border-bottom: 1px solid grey;
-}
 .form-control {
   margin-right: 20px;
   width: 250px;
@@ -21,3 +18,7 @@
 .glyphicon-search {
   margin-right: 20px;
 }
+.main {
+  margin: 20px 30px;
+}
+.
