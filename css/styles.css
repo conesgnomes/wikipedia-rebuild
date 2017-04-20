@@ -21,4 +21,27 @@
 .main {
   margin: 20px 30px;
 }
-.
+.content-img {
+  max-width: 30%;
+}
+.featured-img {
+  margin: 0 15px 15px 0;
+}
+.green-heading {
+  border: 1px solid green;
+  background-color: lime;
+  padding: 10px 20px;
+  margin: 15px 0;
+  border-radius: 3px;
+}
+.blue-heading {
+  border: 1px solid blue;
+  background-color: yellow;
+  padding: 10px 20px;
+  margin: 15px 0;
+  border-radius: 3px;
+}
+.caption {
+  clear:both;
+  width: 30%;
+}
