@@ -1,10 +1,20 @@
+body {
+  background-color: #eee;
+}
+
+.right-column {
+  background-color: white
+}
 .link-list {
   list-style-type: none;
   margin-left: -25px;
 }
-.left-column {
-  background-color: #eee;
+.link-list-heading {
+  border-top: 1px solid rgb(200, 200, 200);
+  padding-top: 6px;
+  opacity: 0.6;
 }
+
 .container-fluid {
   padding: 0;
 }
@@ -27,16 +37,33 @@
 .featured-img {
   margin: 0 15px 15px 0;
 }
+.height {
+    min-height: 850px;
+}
 .green-heading {
-  border: 1px solid green;
-  background-color: lime;
+  border: 1px solid #ddd;
+  background-color: #b3dba3;
   padding: 10px 20px;
   margin: 15px 0;
   border-radius: 3px;
 }
 .blue-heading {
-  border: 1px solid blue;
-  background-color: yellow;
+  border: 1px solid #ddd;
+  background-color: #abd7ed;
+  padding: 10px 20px;
+  margin: 15px 0;
+  border-radius: 3px;
+}
+.danger-heading {
+  border: 1px solid #ddd;
+  background-color: #e2b6b6;
+  padding: 10px 20px;
+  margin: 15px 0;
+  border-radius: 3px;
+}
+.warning-heading {
+  border: 1px solid #ddd;
+  background-color: #f5e8a3;
   padding: 10px 20px;
   margin: 15px 0;
   border-radius: 3px;
@@ -44,4 +71,13 @@
 .caption {
   clear:both;
   width: 30%;
+}
+.glyphicon-cog {
+  margin-top: 10px;
+  opacity: 0.6;
+  font-size: 20px;
+}
+.card {
+  box-sizing: border-box;
+  border: 2px solid white;
 }
